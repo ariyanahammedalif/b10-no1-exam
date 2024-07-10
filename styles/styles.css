@@ -2,12 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
+
 body{
     font-family: "Azeret Mono", monospace;
 }
 
 .banner-section-container{
     background-image: url(../assets/Hero-bg.png);
+    margin: 0 auto;
     width: 1920px;
     height: 520px;
 }
@@ -44,5 +46,17 @@ background-image: url(../assets/Hero-bg.png);
     display: inline-block;
     font-size: 600;
 }
+/* second section  */
 
+.container{
+    display: block;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
 
+}
+.header{
+    text-align: center;
+    padding: 20px 0;
+}

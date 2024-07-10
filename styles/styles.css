@@ -101,6 +101,9 @@ background-image: url(../assets/Hero-bg.png);
     margin-bottom: 10px;
 }
 /* button */
+button a{
+    text-decoration: none;;
+}
 button {
     display: inline-block;
     padding: 10px 20px;
@@ -109,4 +112,157 @@ button {
     border: 1px solid #1b1616d8;
     text-align: center;
     text-decoration: none;
+}
+/* third section */
+
+.third-container{
+    display: block;
+    width: 1140px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+.third-container h2 {
+    text-align: center;
+    padding: 20px 0;
+}
+.third-container p {
+    text-align: center;
+    color: #777;
+    margin-bottom: 10px;
+}
+.third-video-container iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* fourth section */
+.fourth-container {
+    display: block;
+    width: 1140px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+
+}
+.fourth-container h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.fourth-container p {
+    text-align: center;
+    color: #777;
+    margin-bottom: 20px;
+}
+.fourth-card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.fourth-card  {
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    flex: 1;
+    max-width: 300px;
+    text-align: left;
+}
+.fourth-card  h3 {
+    margin-top: 0;
+}
+.fourth-card  p {
+    color: #777;
+}
+.fourth-card  a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0D1321;
+    text-decoration: none;
+    font-weight: bold;
+}
+.fourth-card a:hover {
+    text-decoration: underline;
+}
+.html-card {
+    background-color: #ffeae5;
+}
+.css-card {
+    background-color: #e5f1ff;
+}
+.js-card {
+    background-color: #fff6e5;
+}
+
+
+/* fifth section */
+.main-section {
+    background-image: url('../assets/handshake.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.main-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+}
+.main-content {
+    position: relative;
+    z-index: 2;
+}
+.main-content h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #FFFFFF;
+}
+.main-content p {
+    font-size: 1rem;
+    color: #ebe0e0;
+}
+.feedback-form {
+    margin-top: 20px;
+}
+.feedback-form input[type="text"] {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+}
+.feedback-form input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    background-color: #FFFFFF;
+    color: #0D1321;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.footer {
+    background-color: white;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+}
+.footer p {
+    margin: 0;
+    color: #333;
+}
+.footer .social-icons {
+    margin-top: 10px;
+}
+.footer .social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
 }
